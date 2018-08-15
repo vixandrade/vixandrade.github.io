@@ -2,7 +2,8 @@
    Author's custom styles
    ========================================================================== */
 html {
-    color: #222;
+    color: #ffffff;
+    background-color: #210742dd;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -64,6 +65,40 @@ header a {
 .language-flag {
     width: 30px;
     height: 30px;
+}
+
+.quote-section {
+    width: 100%;
+}
+
+.quote-container {
+    position: relative;
+    text-align: center;
+}
+
+.quote-banner {
+    width: 100%;
+}
+
+.quote {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quote h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+}
+
+.quote p {
+    text-align: right;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
 }
 
 /*
