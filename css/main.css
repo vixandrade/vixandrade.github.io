@@ -61,6 +61,11 @@ header a {
     margin-left: 20px;
 }
 
+.language-flag {
+    width: 30px;
+    height: 30px;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
