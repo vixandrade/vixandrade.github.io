@@ -1,0 +1,26 @@
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+#title {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 0%;
+}
+
+#subtitle {
+    font-family: 'Slabo 27px', serif;
+    margin-top: 0%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav li {
+    display: inline;
+}
