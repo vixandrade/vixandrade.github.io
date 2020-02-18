@@ -28,7 +28,10 @@ function addPostToList(file) {
 
 function handler () {
   if (this.status === 200 && this.responseText != null) {
-    console.log(JSON.parse(this.responseText))
+    var posts = JSON.parse(this.responseText)
+    posts.forEach(post => {
+      addPostToList(post.download_url)
+    })
   } else {
     console.log('Error', this.status, this.responseText)
   }
@@ -36,5 +39,5 @@ function handler () {
 
 var client = new XMLHttpRequest()
 client.onload = handler
-client.open('GET', 'https://api.github.com/repos/vixandrade/vixandrade.github.io/contents/posts');
+client.open('GET', 'https://api.github.com/repos/vixandrade/vixandrade.github.io/contents/posts')
 client.send()
