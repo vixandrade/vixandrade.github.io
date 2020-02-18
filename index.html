@@ -1,21 +1,8 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
-
+  <meta charset="UTF-8">
   <title>vixandrade | Victor de Andrade</title>
   <meta property="og:title" content="Victor de Andrade" />
   <meta property="og:locale" content="en_UK" />
@@ -24,57 +11,28 @@
   <link rel="canonical" href="http://vixandrade.xyz/" />
   <meta property="og:url" content="http://vixandrade.xyz/" />
   <meta property="og:site_name" content="vixandrade" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/10.0.0/markdown-it.min.js"></script>
 </head>
 
 <body>
-  <div class="top-bar">
-      <header class="container">
-          <h1 class="logo"><img src="img/vixandrade.png" alt="Victor de Andrade" /></h1>
-      
-          <nav class="menu-sections">
-            <ul>
-              <li>
-                Victor de Andrade
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/victor-de-andrade-vix21/">LinkedIn</a>
-              </li>
-              <li>
-                <a href="https://github.com/vixandrade/">GitHub</a>
-              </li>
-              <li>
-                <a href="mailto:vix.andrade21@gmail.com">vix.andrade21@gmail.com</a>
-              </li>
-              <li>
-                <svg class="language-flag">
-                  <use xlink:href="img/flags/brazil.svg/#Layer_1"></use>
-                </svg>
-              </li>
-            </ul>
-          </nav>
-        </header>
+  <section class="page-header">
+    vixandrade
+  </section>
 
-        <section class="quote-section">
-          <img class="quote-banner" src="img/banner_iceland.jpg" alt="Sign pointing right in and empty road in Iceland">
-          <div class="quote">
-            <h1>We can only see a short distance ahead, but we can see plenty there that needs to be done.</h1>
-            <p>Alan Turing</p>
-          </div>
-        </section>
-  </div>
-  
-  <!-- <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script> -->
+  <div id="post-list" class="main-content"></div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>  -->
+  <template id="post-card">
+    <div class="card hoverable">
+      <div id="post-md"></div>
+    </div>
+  </template>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
