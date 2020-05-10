@@ -1,8 +1,8 @@
 var md = window.markdownit()
 const posts = 'https://api.github.com/repos/vixandrade/vixandrade.github.io/contents/posts'
-const about = 'https://raw.githubusercontent.com/vixandrade/vixandrade.github.io/working/pages/about.md'
+const about = 'https://raw.githubusercontent.com/vixandrade/vixandrade.github.io/master/pages/about.md'
 
-function addPostToList(file) {
+function addPostToList (file) {
   var rawFile = new XMLHttpRequest()
   rawFile.open('GET', file, false)
   rawFile.onreadystatechange = function () {
@@ -63,16 +63,25 @@ function handlePage () {
   }
 }
 
-var client = new XMLHttpRequest()
-
-switch (window.location.hash) {
-  case '#about':
-    client.open('GET', about)
-    client.onload = handlePage
-    break
-  default:
-    client.open('GET', posts)
-    client.onload = handlePosts
+function clearList () {
+  document.querySelector('#post-list').innerHTML = ''
 }
 
-client.send()
+function changePage (page) {
+  clearList()
+  var client = new XMLHttpRequest()
+
+  switch (page) {
+    case 'about':
+      client.open('GET', about)
+      client.onload = handlePage
+      break
+    default:
+      client.open('GET', posts)
+      client.onload = handlePosts
+  }
+
+  client.send()
+}
+
+changePage('posts')
