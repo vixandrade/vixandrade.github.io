@@ -36,7 +36,7 @@ text set in the data-text attribute. */
 .glitch {
     position: relative;
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     letter-spacing: 0.5em;
 }
 
