@@ -4,6 +4,7 @@
 *Head of Product Engineering @ [DrumWave](https://drumwave.com)*
 
 *Análise e Desenvolvimento de Sistemas* @ [Faculdade de Tecnologia Termomecanica](http://ftt.com.br/home/)
+
 *Associate Student of Computer Science* @ [Queen Mary University of London](https://www.qmul.ac.uk/)
 
 ---
@@ -12,4 +13,4 @@
 
 **Contact at:**
 
-[![Github](../assets/images/github.png)](https://github.com/vixandrade) / [![LinkedIn](../assets/images/linkedin.png)](https://www.linkedin.com/in/victor-de-andrade-vix21/) / [![Instagram](../assets/images/instagram.png)](https://www.instagram.com/vixandrade) / [![Email](../assets/images/email.png)](mailto:vix.andrade@gmail.com)
+[![Github](../assets/images/github.png)](https://github.com/vixandrade) [![LinkedIn](../assets/images/linkedin.png)](https://www.linkedin.com/in/victor-de-andrade-vix21/) [![Instagram](../assets/images/instagram.png)](https://www.instagram.com/vixandrade) [![Email](../assets/images/email.png)](mailto:vix.andrade@gmail.com)
