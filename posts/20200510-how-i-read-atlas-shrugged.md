@@ -2,13 +2,13 @@
 
 This post is the first in what I intend to be an ongoing series.
 
-The inspiration to write these *"How I Read..."* posts comes from my disappointment in trying to find good content online about Ayn Rand's ***Atlas Shrugged*** – any channel or blog that tried to analyse it either praised it mindlessly from a pseudo-entrepenurial perspective or dragged it in mud from the social standpoint.
+The inspiration to write these *"How I Read..."* posts comes from my disappointment in trying to find good content online about Ayn Rand's ***Atlas Shrugged*** – any channel or blog that tried to analyse it either praised it mindlessly from a pseudo-entrepreneurial perspective or dragged it in mud from the social standpoint.
 
 My goal here is to present my own views of this book and of others I might find in the future. The idea is that an opinion in a book challenges my beliefs or puts me in a state of reflection, then the experience is too individual to be analysed by any person or institution that tries to reach some kind of mass audience.
 
 With the disclaimer out of the way, here's ***How I Read Ayn Rand's "Atlas Shrugged"***:
 
-![Ayn Rand's Atlas Shrugged](../assets/images/202005/ayn-rand-atlas-shrugged.jpg)
+![Ayn Rand's Atlas Shrugged](../assets/images/202005/ayn-rand-atlas-shrugged.png)
 >Erasmo showing his appreciation of literature
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu magna nec quam varius fermentum nec et tortor. Suspendisse aliquam eleifend lectus eget vulputate. Ut congue metus sit amet odio efficitur pellentesque et ac ante. Ut consectetur aliquet laoreet. Nam nisl felis, sollicitudin id luctus eu, faucibus vitae erat. Quisque posuere, orci sit amet sodales pretium, justo sapien sollicitudin metus, eget aliquam sapien magna ut lectus. Aenean nisl nulla, volutpat sit amet augue nec, venenatis dapibus augue. Sed a gravida massa, vitae fermentum nibh. Donec vitae mauris orci. Nunc rhoncus ex lacinia urna iaculis, efficitur convallis erat tempor. Vestibulum quis sapien sodales, ullamcorper mauris ut, dapibus arcu. Duis nunc urna, placerat eu est vel, imperdiet commodo eros. In iaculis dui non ante venenatis aliquam. Curabitur sem libero, interdum id maximus vitae, sodales eget augue. Donec dictum eget nunc eget porta.
