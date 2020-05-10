@@ -1,7 +1,7 @@
 ![profile picture 2020](https://raw.githubusercontent.com/vixandrade/vixandrade.github.io/master/assets/images/Cover%20Photo.png)
 
 ## Victor de Andrade
-*Head of Product Engineering @ [DrumWave](https://drumwave.com)*
+*Head of Product Engineering* @ [DrumWave](https://drumwave.com)
 
 *Análise e Desenvolvimento de Sistemas* @ [Faculdade de Tecnologia Termomecanica](http://ftt.com.br/home/)
 
