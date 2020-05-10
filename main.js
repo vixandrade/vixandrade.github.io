@@ -2,7 +2,7 @@ var md = window.markdownit()
 const posts = 'https://api.github.com/repos/vixandrade/vixandrade.github.io/contents/posts'
 const about = 'https://raw.githubusercontent.com/vixandrade/vixandrade.github.io/working/pages/about.md'
 
-function addToList(file) {
+function addPostToList(file) {
   var rawFile = new XMLHttpRequest()
   rawFile.open('GET', file, false)
   rawFile.onreadystatechange = function () {
@@ -28,11 +28,26 @@ function addToList(file) {
   rawFile.send(null)
 }
 
+function renderPage (mdFile) {
+  if ('content' in document.createElement('template')) {
+    var template = document.querySelector('#post-card')
+    var clone = template.content.cloneNode(true)
+
+    var contentElement = clone.querySelector('#post-md')
+    contentElement.innerHTML = md.render(mdFile)
+
+    document.querySelector('#post-list').appendChild(clone)
+  } else {
+    // Find another way to add the rows to the table because
+    // the HTML template element is not supported.
+  }
+}
+
 function handlePosts () {
   if (this.status === 200 && this.responseText != null) {
     var posts = JSON.parse(this.responseText)
     posts.forEach(post => {
-      addToList(post.download_url)
+      addPostToList(post.download_url)
     })
   } else {
     console.log('Error', this.status, this.responseText)
@@ -41,8 +56,8 @@ function handlePosts () {
 
 function handlePage () {
   if (this.status === 200 && this.responseText != null) {
-    var page = JSON.parse(this.responseText)
-    addToList(page.download_url)
+    var page = this.responseText
+    renderPage(page)
   } else {
     console.log('Error', this.status, this.responseText)
   }
