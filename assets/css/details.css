@@ -1,0 +1,12 @@
+.menu {
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
